@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "there-be-dragons",
+	"version": "${version}",
+	"name": "There be Dragons",
+	"description": "A test mod based on a very cool fantasy creature, using Kaupenjoe's amazing modding series.",
+	"authors": [
+		"ThatBurningDev"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/there-be-dragons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.flamestreak7.therebedragons.ThereBeDragons"
+		],
+		"client": [
+			"net.flamestreak7.therebedragons.ThereBeDragonsClient"
+		],
+		"fabric-datagen": [
+			"net.flamestreak7.therebedragons.ThereBeDragonsDataGenerator"
+		]
+	},
+	"mixins": [
+		"there-be-dragons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
