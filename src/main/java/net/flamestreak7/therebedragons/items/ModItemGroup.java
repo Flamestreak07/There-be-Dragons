@@ -20,6 +20,15 @@ public class ModItemGroup
                     {
                         entries.add(Items.FIRSTITEM);
                         entries.add(Items.RUBYSNAKESKIN);
+                        entries.add(Items.TOPAZSNAKESKIN);
+                        entries.add(Items.EMERALDSNAKESKIN);
+                        entries.add(Items.SAPPHIRESNAKESKIN);
+                        entries.add(Items.DRAGONSCALE);
+                        entries.add(Items.DRAGONHELMET);
+                        entries.add(Items.DRAGONCHESTPLATE);
+                        entries.add(Items.DRAGONLEGGINGS);
+                        entries.add(Items.DRAGONBOOTS);
+
 
                         entries.add(ModBlocks.FIRSTBLOCK);
                     }).build());

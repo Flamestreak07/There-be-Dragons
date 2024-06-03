@@ -14,6 +14,14 @@ public class Items
 {
     public static final Item FIRSTITEM = registerItem("firstitem", new Item(new FabricItemSettings()));
     public static final Item RUBYSNAKESKIN = registerItem("rubysnakeskin", new Item(new FabricItemSettings()));
+    public static final Item TOPAZSNAKESKIN = registerItem("topazsnakeskin", new Item(new FabricItemSettings()));
+    public static final Item EMERALDSNAKESKIN = registerItem("emeraldsnakeskin", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRESNAKESKIN = registerItem("sapphiresnakeskin", new Item(new FabricItemSettings()));
+    public static final Item DRAGONSCALE = registerItem("dragonscale", new Item(new FabricItemSettings()));
+    public static final Item DRAGONHELMET = registerItem("dragonhelmet", new Item(new FabricItemSettings()));
+    public static final Item DRAGONCHESTPLATE = registerItem("dragonchestplate", new Item(new FabricItemSettings()));
+    public static final Item DRAGONLEGGINGS = registerItem("dragonleggings", new Item(new FabricItemSettings()));
+    public static final Item DRAGONBOOTS = registerItem("dragonboots", new Item(new FabricItemSettings()));
 
 
 

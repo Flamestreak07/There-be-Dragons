@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "there-be-dragons:dragonscale"
+    }
+  },
+  "result": {
+    "item": "there-be-dragons:dragonboots",
+    "count": 1
+  }
+}
