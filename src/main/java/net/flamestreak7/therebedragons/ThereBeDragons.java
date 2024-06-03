@@ -2,7 +2,9 @@ package net.flamestreak7.therebedragons;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.flamestreak7.therebedragons.blocks.ModBlocks;
 import net.flamestreak7.therebedragons.items.Items;
+import net.flamestreak7.therebedragons.items.ModItemGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +16,8 @@ public class ThereBeDragons implements ModInitializer
 	@Override
 	public void onInitialize()
 	{
+		ModItemGroup.registerItemGroup();
 		Items.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

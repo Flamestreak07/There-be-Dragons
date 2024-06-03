@@ -1,3 +1,8 @@
 {
-  "item.there-be-dragons.firstitem": "First Item LES GO"
+  "item.there-be-dragons.firstitem": "First Item LES GO",
+  "item.there-be-dragons.rubysnakeskin": "Ruby Snake Skin",
+
+  "block.there-be-dragons.firstblock": "First Block les go?",
+
+  "itemgroup.therebedragons": "There be Dragons"
 }

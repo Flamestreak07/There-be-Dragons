@@ -12,12 +12,15 @@ import net.minecraft.util.Identifier;
 
 public class Items
 {
-    public static final Item FirstItem = registerItem("firstitem", new Item(new FabricItemSettings()));
+    public static final Item FIRSTITEM = registerItem("firstitem", new Item(new FabricItemSettings()));
+    public static final Item RUBYSNAKESKIN = registerItem("rubysnakeskin", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
-    { // This adds shit to the creative menu, specifically the ingredients tab
-        entries.add(FirstItem);
-    }
+
+
+//    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
+//    { // This adds shit to the creative menu, specifically the ingredients tab
+//
+//    }
 
 
     private static Item registerItem(String name, Item item)
@@ -28,6 +31,6 @@ public class Items
     { // This registers them as an item
         ThereBeDragons.LOGGER.info("Registering mod items for " + ThereBeDragons.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Items ::addItemsToIngredientItemGroup);
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Items ::addItemsToIngredientItemGroup);
     }
 }
