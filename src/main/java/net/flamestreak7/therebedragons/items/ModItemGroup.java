@@ -24,6 +24,7 @@ public class ModItemGroup
                         entries.add(Items.EMERALDSNAKESKIN);
                         entries.add(Items.SAPPHIRESNAKESKIN);
                         entries.add(Items.DRAGONSCALE);
+
                         entries.add(Items.DRAGONHELMET);
                         entries.add(Items.DRAGONCHESTPLATE);
                         entries.add(Items.DRAGONLEGGINGS);
