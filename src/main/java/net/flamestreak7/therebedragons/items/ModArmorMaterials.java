@@ -13,7 +13,6 @@ public enum ModArmorMaterials implements ArmorMaterial {
     DRAGONSCALE("dragonscale", 20, new int[] {3, 6, 5, 3}, 12,
             SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 1f, 0f, () -> Ingredient.ofItems(Items.DRAGONSCALE));
     ;
-
     private final String name;
     private final int durabilityMult;
     private final int[] protectionAmounts;

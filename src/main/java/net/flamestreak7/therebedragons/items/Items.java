@@ -4,9 +4,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.flamestreak7.therebedragons.ThereBeDragons;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.flamestreak7.therebedragons.items.custom.DragonBowItem;
+import net.flamestreak7.therebedragons.items.custom.ToothKnifeItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -14,11 +14,20 @@ import net.minecraft.util.Identifier;
 public class Items
 {
     public static final Item FIRSTITEM = registerItem("firstitem", new Item(new FabricItemSettings()));
+    public static final Item FIREWAND = registerItem("firewand", new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item DRAGONSHOVEL = registerItem("dragonshovel", new ShovelItem(ModToolMaterials.DRAGONSCALE, 2, -3f, new FabricItemSettings()));
+    public static final Item DRAGONTOOTHKNIFE = registerItem("toothknife", new ToothKnifeItem(ModToolMaterials.DRAGONTOOTH, 2, 4f, new FabricItemSettings()));
+    public static final Item DRAGONBOW = registerItem("dragonbow", new DragonBowItem(new FabricItemSettings()));
+
     public static final Item RUBYSNAKESKIN = registerItem("rubysnakeskin", new Item(new FabricItemSettings()));
     public static final Item TOPAZSNAKESKIN = registerItem("topazsnakeskin", new Item(new FabricItemSettings()));
     public static final Item EMERALDSNAKESKIN = registerItem("emeraldsnakeskin", new Item(new FabricItemSettings()));
     public static final Item SAPPHIRESNAKESKIN = registerItem("sapphiresnakeskin", new Item(new FabricItemSettings()));
+
     public static final Item DRAGONSCALE = registerItem("dragonscale", new Item(new FabricItemSettings()));
+    public static final Item DRAGONTOOTH = registerItem("dragontooth", new Item(new FabricItemSettings()));
+    public static final Item TOOTHSHARD = registerItem("toothshard", new Item(new FabricItemSettings()));
 
     public static final Item DRAGONHELMET = registerItem("dragonhelmet", new ArmorItem(ModArmorMaterials.DRAGONSCALE,
             ArmorItem.Type.HELMET, new FabricItemSettings()));

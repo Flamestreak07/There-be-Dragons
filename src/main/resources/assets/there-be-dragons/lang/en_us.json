@@ -1,17 +1,24 @@
 {
   "item.there-be-dragons.firstitem": "First Item LES GO",
+  "item.there-be-dragons.firewand": "Fire Wand",
   "item.there-be-dragons.rubysnakeskin": "Ruby Snake Skin",
   "item.there-be-dragons.topazsnakeskin": "Topaz Snake Skin",
   "item.there-be-dragons.emeraldsnakeskin": "Emerald Snake Skin",
   "item.there-be-dragons.sapphiresnakeskin": "Sapphire Snake Skin",
   "item.there-be-dragons.dragonscale": "Dragon Scale",
+  "item.there-be-dragons.dragontooth": "Dragon Tooth",
+  "item.there-be-dragons.toothshard": "Dragon Tooth Shard",
 
   "item.there-be-dragons.dragonhelmet": "Scale Helmet",
   "item.there-be-dragons.dragonchestplate": "Scale Chestplate",
   "item.there-be-dragons.dragonleggings": "Scale Leggings",
   "item.there-be-dragons.dragonboots": "Scale Boots",
+  "item.there-be-dragons.dragonshovel": "Scale Shovel",
+  "item.there-be-dragons.toothknife": "Dragon Tooth Knife",
+  "item.there-be-dragons.dragonbow": "Dragon Bow",
 
   "block.there-be-dragons.firstblock": "First Block les go?",
+  "block.there-be-dragons.scorchedgrass": "Scorched Grass",
 
   "itemgroup.therebedragons": "There be Dragons"
 }

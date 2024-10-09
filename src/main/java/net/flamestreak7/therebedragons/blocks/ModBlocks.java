@@ -16,6 +16,8 @@ public class ModBlocks
 {
     public static final Block FIRSTBLOCK = registerBlock("firstblock",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.SUSPICIOUS_SAND)));
+    public static final Block SCORCHEDGRASS = registerBlock("scorchedgrass",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block)

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "combat",
+  "ingredients":[
+    {
+      "item": "there-be-dragons:dragontooth"
+    }
+  ],
+
+  "result": {
+    "item": "there-be-dragons:toothshard",
+    "count": 4
+  }
+}

@@ -19,19 +19,27 @@ public class ModItemGroup
                     .icon(() -> new ItemStack(Items.RUBYSNAKESKIN)).entries((displayContext, entries) ->
                     {
                         entries.add(Items.FIRSTITEM);
+                        entries.add(ModBlocks.FIRSTBLOCK);
+
+                        entries.add(Items.FIREWAND);
                         entries.add(Items.RUBYSNAKESKIN);
                         entries.add(Items.TOPAZSNAKESKIN);
                         entries.add(Items.EMERALDSNAKESKIN);
                         entries.add(Items.SAPPHIRESNAKESKIN);
                         entries.add(Items.DRAGONSCALE);
+                        entries.add(Items.DRAGONTOOTH);
+                        entries.add(Items.TOOTHSHARD);
 
                         entries.add(Items.DRAGONHELMET);
                         entries.add(Items.DRAGONCHESTPLATE);
                         entries.add(Items.DRAGONLEGGINGS);
                         entries.add(Items.DRAGONBOOTS);
 
+                        entries.add(Items.DRAGONSHOVEL);
+                        entries.add(Items.DRAGONTOOTHKNIFE);
+                        entries.add(Items.DRAGONBOW);
 
-                        entries.add(ModBlocks.FIRSTBLOCK);
+                        entries.add(ModBlocks.SCORCHEDGRASS);
                     }).build());
     public static void registerItemGroup()
     {
